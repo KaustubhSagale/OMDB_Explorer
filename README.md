@@ -11,6 +11,24 @@ The backend securely proxies OMDB API requests with caching, while the frontend 
 🔐 No API key exposed to frontend
 📱 Responsive UI with smooth animations
 
+**⚙ Setup Instructions
+1️⃣ Clone Repo
+git clone https://github.com/KaustubhSagale/OMDB_Explorer
+cd OMDB_Explorer
+2️⃣ Backend
+cd backend
+cp .env.example .env   # add your OMDB KEY
+npm install
+npm start
+Runs at: http://localhost:3000
+3️⃣ Frontend
+cd ../frontend
+cp .env.example .env
+npm install
+npm run dev
+Runs at: http://localhost:5173**
+
+
 🏗 Architecture
 Frontend (React + Vite)
     ↓ API calls
